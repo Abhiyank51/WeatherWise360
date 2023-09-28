@@ -11,6 +11,7 @@
 }
 body {
   background: url(bg2.jpg) no-repeat center center/cover;
+  margin-bottom: 60px;
 }
 h1 {
   background: #33024e;
@@ -261,5 +262,11 @@ footer {
   }
   .weather-data h2 {
     font-size: 1.35rem;
+  }
+}
+@media (max-width: 768px) {
+  footer {
+    height: auto; 
+    padding: 10px; 
   }
 }
