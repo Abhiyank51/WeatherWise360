@@ -209,7 +209,7 @@ h1:hover{
 footer {
   padding: 9px 20px;
   position: fixed;
-  bottom: 0 px;
+  bottom: 0 ;
   width: 100%;
   height: 40px;   
   background: black;
