@@ -218,6 +218,15 @@ footer {
   font-weight: bold;
   justify-content: center;
 }
+/* Media query for screens with a maximum width of 768px */
+@media (max-width: 768px) {
+  footer {
+    height: auto; /* Allow the height to adjust to content */
+    padding: 10px; /* Increase padding for smaller screens */
+  }
+}
+
+
 /*logo*/
 .logo img{
   height: 60px;
@@ -262,11 +271,5 @@ footer {
   }
   .weather-data h2 {
     font-size: 1.35rem;
-  }
-}
-@media (max-width: 768px) {
-  footer {
-    height: auto; 
-    padding: 10px; 
   }
 }
